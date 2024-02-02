@@ -1,0 +1,349 @@
+.user{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10%;
+}
+#navbtn{
+    background-color: white;
+    border: none;
+    width: 60px;
+}
+.navlink{
+    border: none;
+    background-color: white;
+    width: 80px;
+}
+.first{
+    margin-top: 70px;
+    border: none;
+    border-radius: 0;
+}
+.sideimg{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: 80px;
+}
+.textside{
+    margin-top: 120px;
+    text-align: center;
+}
+h1{
+    font-weight: 600;
+}
+#downloadBtn{
+    width: 100px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 14px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+#downloadBtn:hover{
+    background-color: white;
+    color: black;
+}
+.git{
+    font-size: 35px;
+    color: black;
+}
+.linkedin{
+    font-size: 35px;
+    color: black; 
+}
+.second{
+    text-align: center;
+    margin-top: 40px;
+    border: none;
+    border-radius: 0;
+}
+h2{
+    margin-top: -20px;
+}
+.third{
+    border: none;
+    border-radius: 0;
+}
+.education{
+    font-size: 20px;
+    font-weight: 600;
+}
+.fourth{
+    font-weight: 500;
+    height: 250px;
+}
+.fifth{
+    font-weight: 500;
+    height: 180px;
+}
+.edhead{
+    text-decoration:underline !important;
+    font-weight: 700;
+}
+.skillhead{
+    font-size: 22px;
+    color: rgb(73, 73, 73);
+}
+.skill{
+    text-align: left !important;
+    font-size: 12px;
+    font-weight: 700;
+}
+.skillrow{
+    margin-left: 40px;
+    margin-right: 0px;
+}
+.frontskill{
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    border-radius: 0;
+}
+.demo{
+    height: 28px;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+}
+.demo:hover{
+    background-color: white;
+    color: black;
+}
+.demohref{
+    text-decoration: none;
+    color: white;
+}
+.demohref:hover{
+    text-decoration: none;
+    color: black;
+}
+.video{
+    margin-left: -10px;
+}
+.d-block{
+    height: 200px;
+}
+.contact{
+    height: 450px !important;
+}
+.linkcontact{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.linkcontact:hover{
+    text-decoration: underline;
+}
+.contactbtn{
+    background-color: white;
+    height: 28px;
+    border-radius: 14px;
+}
+.project{
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+@media screen and (max-width:320px) {
+    .user{
+        margin-left: 4%;
+    }
+    .sideimg{
+        height: 250px;
+        width: 250px;
+        margin-top: 60px;
+    }
+    .textside{
+        margin-top: 60px;
+    }
+    .frontskill{
+        width: 100%;
+        margin-left: 0;
+    }
+    .fifth{
+        height: auto;
+    }
+    .skill{
+        margin-left: -10 !important;
+        padding: 0 !important;
+    }
+    .d-block{
+        height: 150px;
+    }
+    .contact{
+        height: 300px !important;
+    }
+    .contactbtn{
+        background-color: white;
+        height: 80px;
+        border-radius: 14px;
+        width: 240px;
+        margin-left: -10%;
+    }
+    .navbar-toggler-icon{
+        font-size: 15px;
+    }
+    .navbar-toggler{
+        border: none;
+        margin-left: 20%;
+    }
+    .fourth{
+        height: 280px;
+    }
+    .project{
+        font-size: 18px !important;
+        font-weight: 500;
+    }
+}
+@media screen and (min-width:321px) and (max-width:376px){
+    .user{
+        margin-left: 3% !important;
+    }
+    .sideimg{
+        height: 250px;
+        width: 250px;
+        margin-top: 60px;
+    }
+    .textside{
+        margin-top: 60px;
+    }
+    .frontskill{
+        width: 100%;
+        margin-left: 0;
+    }
+    .fourth{
+        height: 270px;
+    }
+    .fifth{
+        height: auto;
+    }
+    .skill{
+        margin-left: -10 !important;
+        padding: 0 !important;
+    }
+    .d-block{
+        height: 150px;
+    }
+    .contact{
+        height: 300px !important;
+    }
+    .contactbtn{
+        background-color: white;
+        height: 80px;
+        border-radius: 14px;
+        width: 240px;
+        margin-left: -10%;
+    }
+    .navbar-toggler-icon{
+        font-size: 15px;
+    }
+    .navbar-toggler{
+        border: none;
+        margin-left: 30%;
+    }
+    .project{
+        font-size: 18px !important;
+        font-weight: 500;
+    }
+}
+@media screen and (min-width:376px) and (max-width:600px) {
+    .user{
+        margin-left: 3%;
+    }
+    .sideimg{
+        height: 300px;
+        width: 300px;
+        margin-top: 60px;
+    }
+    .textside{
+        margin-top: 60px;
+    }
+    .frontskill{
+        width: 100%;
+        margin-left: 0;
+    }
+    .fifth{
+        height: auto;
+    }
+    .skill{
+        margin-left: -10 !important;
+        padding: 0 !important;
+    }
+    .d-block{
+        height: 150px;
+    }
+    .contact{
+        height: 300px !important;
+    }
+    .contactbtn{
+        background-color: white;
+        height: 80px;
+        border-radius: 14px;
+        width: 280px;
+        margin-left: -10%;
+    }
+    .navbar-toggler-icon{
+        font-size: 15px;
+    }
+    .navbar-toggler{
+        border: none;
+        margin-left: 40%;
+    }
+    .project{
+        font-size: 18px !important;
+        font-weight: 500;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    .user{
+        margin-left: 3%;
+    }
+    .sideimg{
+        height: 300px;
+        width: 300px;
+        margin-top: 60px;
+    }
+    .textside{
+        margin-top: 60px;
+    }
+    .frontskill{
+        width: 100%;
+        margin-left: 0;
+    }
+    .fourth{
+        height: 300px;
+    }
+    .skill{
+        margin-left: -10 !important;
+        padding: 0 !important;
+    }
+    .d-block{
+        height: 150px;
+    }
+    .contact{
+        height: 300px !important;
+    }
+    .contactbtn{
+        background-color: white;
+        height: 80px;
+        border-radius: 14px;
+        width: 280px;
+        margin-left: -10%;
+    }
+    .navbar-toggler-icon{
+        font-size: 15px;
+    }
+    .navbar-toggler{
+        border: none;
+        margin-left: 60%;
+    }
+    .project{
+        font-size: 13px !important;
+        font-weight: 500;
+    }
+}
+
+
+
