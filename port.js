@@ -1,5 +1,5 @@
 document.getElementById('downloadBtn').addEventListener('click', function() {
-    var fileUrl = 'anuWe.pdf';
+    var fileUrl = 'anusha_resume.pdf';
     var a = document.createElement('a');
     a.href = fileUrl;
     a.download = 'cv.pdf';
