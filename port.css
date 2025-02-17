@@ -144,8 +144,8 @@ h2{
 .project{
     font-size: 18px !important;
     font-weight: 500;
+    height: 60px;
 }
-
 @media screen and (max-width:320px) {
     .user{
         margin-left: 4%;
@@ -179,8 +179,8 @@ h2{
         background-color: white;
         height: 80px;
         border-radius: 14px;
-        width: 240px;
-        margin-left: -10%;
+        width: 275px;
+        margin-left: -20%;
     }
     .navbar-toggler-icon{
         font-size: 15px;
@@ -196,11 +196,22 @@ h2{
         font-size: 18px !important;
         font-weight: 500;
     }
+    .dem {
+        flex-wrap: nowrap;
+        justify-content: center; 
+    }
+    
+    .demvedio {
+        flex: none;
+        width: 48%;
+    }
 }
 @media screen and (min-width:321px) and (max-width:376px){
+
     .user{
         margin-left: 3% !important;
     }
+    
     .sideimg{
         height: 250px;
         width: 250px;
@@ -233,7 +244,7 @@ h2{
         background-color: white;
         height: 80px;
         border-radius: 14px;
-        width: 240px;
+        width: 280px;
         margin-left: -10%;
     }
     .navbar-toggler-icon{
@@ -246,6 +257,15 @@ h2{
     .project{
         font-size: 18px !important;
         font-weight: 500;
+    }
+    .dem {
+        flex-wrap: nowrap;
+        justify-content: center; 
+    }
+    
+    .demvedio {
+        flex: none;
+        width: 48%;
     }
 }
 @media screen and (min-width:376px) and (max-width:600px) {
@@ -295,7 +315,18 @@ h2{
         font-size: 18px !important;
         font-weight: 500;
     }
+    .dem {
+        flex-wrap: nowrap;
+        justify-content: center; 
+    }
+    
+    .demvedio {
+        flex: none;
+        width: 48%;
+    }
+    
 }
+
 @media screen and (min-width:601px) and (max-width:768px) {
     .user{
         margin-left: 3%;
@@ -342,6 +373,9 @@ h2{
     .project{
         font-size: 13px !important;
         font-weight: 500;
+    }
+    .fifth{
+        height: 200px;
     }
 }
 
